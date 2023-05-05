@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #609966;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #40513B;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+aside {
+  float: left;
+  padding-right: 20px;
+  width: 25%;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+section{
+  align-items: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: #609966;
+}
+
+footer p {
+  text-align: end;
+  color: white;
+}
+
+h2 {
+  color: #609966;
+}
+
+h3 {
+  color: #609966;
+}
+
+#content {
+  float: right;
+  width: 75%;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+p {
+  text-align: justify;
+}
+
+form input, form textarea{
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+#submit-button{
+  padding: 15px 30px;
+  margin: 10px auto;
+  cursor: pointer;
+  display: block;
+  border-radius: 6px;
+  background-color: #DFFFD8;
+}
+
+#submit-button:hover{
+  background-color: #609966;
+
+}
+
+@media screen and (max-width: 1200px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+  .profile img {
+    width: 150px;
+    height: auto;
+  }
+}
